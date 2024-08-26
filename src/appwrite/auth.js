@@ -45,8 +45,8 @@ export class Authservice {
         // );
         return this.account.createOAuth2Session(
             "google",
-            "https://money-manager-omega.vercel.app/",
-            "https://money-manager-omega.vercel.app/auth"
+            "money-manager-six-xi.vercel.app",
+            "https://money-manager-six-xi.vercel.app/auth"
         );
         } catch (error) {
         console.log("ERROR WHILE DOING GOOGLE AUTH", error);
