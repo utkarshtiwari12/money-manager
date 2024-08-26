@@ -45,7 +45,7 @@ export class Authservice {
         // );
         return this.account.createOAuth2Session(
             "google",
-            "money-manager-six-xi.vercel.app",
+            "money-manager-six-xi.vercel.app/",
             "https://money-manager-six-xi.vercel.app/auth"
         );
         } catch (error) {
