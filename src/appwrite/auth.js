@@ -33,21 +33,21 @@ export class Authservice {
 
     async loginWithGoogle() {
         try {
-        return this.account.createOAuth2Session(
-            'google',
-            'http://localhost:5173',
-            'http://localhost:5173/auth'
-        );
+        // return this.account.createOAuth2Session(
+        //     'google',
+        //     'http://localhost:5173',
+        //     'http://localhost:5173/auth'
+        // );
         // return this.account.createOAuth2Session(
         //   'google',
         //   'http://192.168.1.6:5173',
         //   'http://192.168.1.6:5173/auth'
         // );
-        // return this.account.createOAuth2Session(
-        //     "google",
-        //     "https://money-manager-kappa.vercel.app/",
-        //     "https://money-manager-kappa.vercel.app/auth"
-        // );
+        return this.account.createOAuth2Session(
+            "google",
+            "https://money-manager-omega.vercel.app/",
+            "https://money-manager-omega.vercel.app/auth"
+        );
         } catch (error) {
         console.log("ERROR WHILE DOING GOOGLE AUTH", error);
         }
