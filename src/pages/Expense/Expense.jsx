@@ -200,7 +200,7 @@ const Expense = () => {
                                     id="categorys"
                                     value={"Cash Outflow"}
                                     className="capitalize w-[80%] bg-transparent inline-flex p-2"
-                                    readOnly="true"
+                                    readOnly={true}
                                 />
                                 <i className="fa-solid fa-arrow-trend-down text-red-500"></i>
                                 </div>

@@ -191,7 +191,7 @@ import {
                                     id="category"
                                     value={"Cash Inflow"}
                                     className="capitalize w-[80%] bg-transparent inline-flex p-2"
-                                    readOnly="true"
+                                    readOnly={true}
                                 />
                                 <i className="fa-solid fa-arrow-trend-up text-green-500"></i>
                                 </div>

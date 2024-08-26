@@ -83,7 +83,7 @@ import {
             setIncomeTodaysSum(localIncomeTodaysSum);
         }
 
-        setResult(localIncomeSum - localSum);
+        setResult(localIncomeSum - localExpenseSum);
         console.log(result);
 
         setLoaderK(false);
@@ -119,7 +119,7 @@ import {
                         <Button className="flex hover:bg-[#fd366e] hover:text-white min-h-[5vh] items-center gap-1 text-xl">
                         <span>&#8377;</span>
                         <span className="flex gap-x-2 items-center">
-                            <p className="text-lg">{sum}</p>
+                            <p className="text-lg">{expenseSum}</p>
                             <i className="fa-solid fa-arrow-trend-down text-red-500"></i>
                         </span>
                         </Button>
